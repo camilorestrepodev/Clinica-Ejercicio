@@ -24,4 +24,8 @@ public class PacienteController {
     public Paciente crear(@RequestBody Paciente paciente) {
         return this.servicioPaciente.crear(paciente);
     }
+
+
+    //crear endpoint para obtener todos los paciente
+    //crear endpoint para eliminar paciente por dni
 }

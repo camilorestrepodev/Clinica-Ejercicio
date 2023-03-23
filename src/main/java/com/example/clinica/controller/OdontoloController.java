@@ -23,4 +23,7 @@ public class OdontoloController {
     public Odontologo crear(@RequestBody Odontologo odontologo) {
         return this.odontologoService.crear(odontologo);
     }
+
+    //crear endpoint para obtener todos los odontologo
+    //crear endpoint para eliminar odontologo por matricula
 }
